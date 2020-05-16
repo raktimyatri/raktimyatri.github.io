@@ -1,0 +1,754 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="CSS/home-page.css">
+    <title>Favori-Home</title>
+  </head>
+
+
+  <body>
+    <!-- nav section -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
+      <a class="navbar-brand" href="index.html">FAVORI</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active" id="reservation">
+            <a class="nav-link" href="#">Reservations<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active" id="location">
+            <a class="nav-link" href="#">Location & Hours</a>
+          </li>
+          <li class="nav-item dropdown active">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Menu
+            </a>
+            <div class="container">
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown" id="dropColor">
+                <a class="dropdown-item" href="#" id="traditionalPage">Traditional Pizzas</a>
+                <a class="dropdown-item" href="#" id="gourmetPage">Gourmet Pizzas</a>
+                <a class="dropdown-item" href="#" id="kidsPage">Kids Pizzas</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#" id="pastaPage">Pasta</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#" id="saladsPage">Salads</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#" id="italianPage">Italian Icecream</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#" id="beveragesPage">Beverages</a>
+              </div>
+            </div>
+          </li>
+
+        </ul>
+
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active" id="placeOrder">
+            <a class="nav-link" href="#">Order Online</a>
+          </li>
+          <li class="nav-item active" id="contact">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- nav section ends -->
+
+
+    <!-- slide section starts -->
+    <div class="slideBg">
+      <div id="slideshow">
+        <img id="4" class="slide" src="https://res.cloudinary.com/bishal/image/upload/v1586055961/Blog-Site/photo-1563865436874-9aef32095fad_shndng.jpg">
+        <img id="1" class="slide" src="https://res.cloudinary.com/bishal/image/upload/v1586056207/Blog-Site/photo-1571407906723-2d8feeb7b155_abwhfl.jpg">
+        <img id="2" class="slide" src="https://res.cloudinary.com/bishal/image/upload/v1586056075/Blog-Site/photo-1551978129-b73f45d132eb_tc5aot.jpg">
+        <img id="3" class="slide" src="https://res.cloudinary.com/bishal/image/upload/v1586055961/Blog-Site/photo-1563865436874-9aef32095fad_shndng.jpg">
+        <img id="5" class="slide" src="https://res.cloudinary.com/bishal/image/upload/v1586056075/Blog-Site/photo-1551978129-b73f45d132eb_tc5aot.jpg">
+      </div>
+    </div>
+    <!-- slide section ends -->
+
+
+    <!-- Info Box -->
+    <div class="container" id="center"> <i class="fas fa-phone-alt" id="phone"></i><br><br>
+      <p>Sorry! We're currently not accepting reservations online!</p>
+      <p>Please call us to complete your reservation: <br>
+        (03) 9699 3157
+      </p>
+      <button type="button" class="btn btn-lg btn-success" id="close">OK</button>
+    </div>
+    <!-- Info Box Ends -->
+
+
+    <!-- Online Order Box -->
+    <div class="container" id="online"> <i class="fas fa-phone-alt" id="onlineOrder"></i><br><br>
+      <p>Sorry, online order is currently closed! We're not taking orders right now!</p>
+      <p>To place an order, please call us at: <br>
+        (03) 9699 3157
+      </p>
+      <button type="button" class="btn btn-lg btn-info" id="order">OK</button>
+    </div>
+    <!-- Online Order Box Ends -->
+
+
+    <!-- Top home page -->
+    <div id="setBack" class="bg-danger text-white">
+      <div class="row" id="row">
+        <div class="col-sm-6" id="pizzaImage">
+          <img id="img-src" src="https://res.cloudinary.com/bishal/image/upload/v1588818249/Blog-Site/photo-1547582538-8e3598d60244_iuqexw.jpg">
+        </div>
+        <div class="col-sm-6" id="favoriHeading">
+          <div class="fontSet bg-danger text-white">Favori Pizza</div>
+          <hr class="bg-warning text-white hrLine">
+          <div class="smallPara bg-danger text-white">Eat in or take away! BYO!</div>
+          <hr class="bg-warning text-white hrLine">
+          <div class="setPara">
+            <p>
+              Favori, meaning favourite. We at Favori are a passionate family-owned business who has been
+              serving the community for over 20 years and whose main ingredient is to continue for many
+              more years to come.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Top home page ends -->
+
+
+    <!-- Reservation section -->
+    <div id="setReser">
+      <p>make a reservation</p>
+    </div>
+    <div class="container">
+      <div class="time">Note: If the options are not available,
+        please enter time in 24-hour format.</div><br>
+
+      <form class="form-inline formBottom" id="form">
+        <div class="form-group ml-3 mr-1 mt-1">
+          <label for="date" class="mr-1">Date</label>
+          <input type="date" class="form-control" id="date" placeholder="Date">
+        </div>
+        <div class="form-group ml-3 mr-1 mt-1">
+          <label for="time" class="mr-1">Confirm the time</label>
+          <input type="time" class="form-control" id="time" placeholder="Time">
+        </div>
+        <div class="form-group ml-3 mr-1 mt-1">
+          <label for="size" class="mr-1">Select the party size</label>
+          <select class="custom-select">
+            <option value="0">Party Size</option>
+            <option value="1">One Person</option>
+            <option value="2">Two Persons</option>
+            <option value="3">Three Persons</option>
+            <option value="4">Four Persons</option>
+            <option value="5">Five Persons</option>
+            <option value="6">Six Persons</option>
+          </select>
+        </div>
+        <div class="form-group ml-3 mr-1 mt-1">
+          <label for="book" class="mr-1">Book your table</label>
+          <button type="submit" class="form-control btn btn-primary" id="book">Book Now</button>
+        </div>
+      </form>
+    </div>
+    <br><br>
+    <!-- Reservation section ends -->
+
+
+    <!-- Menu Section -->
+    <div class="container"> <!-- Container starts -->
+      <div class="row">
+        <div class="col-12 col-md-6"> <!-- Traditional pizza col -->
+          <div id="tradPiza1" class="bg-danger text-white"><h1>traditional pizzas</h1></div>
+          <div class="table-responsive">
+            <table class="table table-bordered table-hover bg-danger text-white" id="tableBackground1">
+              <thead>
+                <tr>
+                  <th scope="col">Items</th>
+                  <th scope="col">Small</th>
+                  <th scope="col">Medium</th>
+                  <th scope="col">Large</th>
+                  <th scope="col">Family</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>
+                    <p><b>FAVORI SPECIAL</b></p>
+                    <p><i>Ham Onion Olives</i></p>
+                    <p><i>Capsicum Mushrooms</i></p>
+                  </td>
+                  <td>$13.00</td>
+                  <td>$15.00</td>
+                  <td>$20.00</td>
+                  <td>$23.00</td>
+                </tr>
+
+                <tr>
+                  <td>
+                    <p><b>MARGHERITA</b></p>
+                    <p><i>Double Cheese</i></p>
+                  </td>
+                  <td>$11.00</td>
+                  <td>$14.00</td>
+                  <td>$18.00</td>
+                  <td>$20.00</td>
+                </tr>
+
+                <tr>
+                  <td>
+                    <p><b>NAPOLITANA</b></p>
+                    <p><i>Olives Anchovies</i></p>
+                    <p><i>Spices</i></p>
+                  </td>
+                  <td>$12.00</td>
+                  <td>$14.50</td>
+                  <td>$19.00</td>
+                  <td>$22.00</td>
+                </tr>
+
+                <tr>
+                  <td>
+                    <p><b>CALABRESE</b></p>
+                    <p><i>Hot Salami Olives</i></p>
+                    <p><i>Mushrooms Garlic</i></p>
+                  </td>
+                  <td>$13.00</td>
+                  <td>$15.50</td>
+                  <td>$20.00</td>
+                  <td>$23.00</td>
+                </tr>
+
+                <tr>
+                  <td>
+                    <p><b>HAWAIIAN</b></p>
+                    <p><i>Ham Pineapple</i></p>
+                  </td>
+                  <td>$13.00</td>
+                  <td>$15.50</td>
+                  <td>$20.00</td>
+                  <td>$23.00</td>
+                </tr>
+
+                <tr>
+                  <td>
+                    <p><b>VEGETARIAN</b></p>
+                    <p><i>Mushrooms Capsicum</i></p>
+                    <p><i>Onions Olives</i></p>
+                  </td>
+                  <td>$12.00</td>
+                  <td>$14.50</td>
+                  <td>$19.00</td>
+                  <td>$22.00</td>
+                </tr>
+
+                <tr>
+                  <td>
+                    <p><b>AUSSIE</b></p>
+                    <p><i>Ham Bacon Egg</i></p>
+                  </td>
+                  <td>$13.00</td>
+                  <td>$15.00</td>
+                  <td>$20.00</td>
+                  <td>$23.00</td>
+                </tr>
+
+                <tr>
+                  <td>
+                    <p><b>CAPRICCIOSA</b></p>
+                    <p><i>Ham Mushrooms</i></p>
+                    <p><i>Olives Anchovies</i></p>
+                  </td>
+                  <td>$13.00</td>
+                  <td>$15.00</td>
+                  <td>$20.00</td>
+                  <td>$23.00</td>
+                </tr>
+
+                <tr>
+                  <td>
+                    <p><b>SEAFOOD SPECIAL</b></p>
+                    <p><i>Prawns Anchovies</i></p>
+                    <p><i>Baby Clams Garlic</i></p>
+                  </td>
+                  <td>$13.00</td>
+                  <td>$15.00</td>
+                  <td>$20.00</td>
+                  <td>$23.00</td>
+                </tr>
+
+                <tr>
+                  <td>
+                    <p><b>POLLO</b></p>
+                    <p><i>Chicken Mushrooms</i></p>
+                    <p><i>Pineapple</i></p>
+                  </td>
+                  <td>$13.00</td>
+                  <td>$15.00</td>
+                  <td>$20.00</td>
+                  <td>$23.00</td>
+                </tr>
+
+                <tr>
+                  <td>
+                    <p><b>BEEF</b></p>
+                    <p><i>Beef Mushrooms</i></p>
+                    <p><i>Onions Spices</i></p>
+                  </td>
+                  <td>$13.00</td>
+                  <td>$15.00</td>
+                  <td>$20.00</td>
+                  <td>$23.00</td>
+                </tr>
+
+                <tr>
+                  <td>
+                    <p><b>AMERICANA</b></p>
+                    <p><i>Hot Salami Oregano</i></p>
+                  </td>
+                  <td>$12.00</td>
+                  <td>$14.50</td>
+                  <td>$19.00</td>
+                  <td>$22.00</td>
+                </tr>
+
+                <tr>
+                  <td>
+                    <p><b>MEXICANA</b></p>
+                    <p><i>Ham Hot Salami</i></p>
+                    <p><i>Capsicum Chilli</i></p>
+                  </td>
+                  <td>$13.00</td>
+                  <td>$15.50</td>
+                  <td>$20.00</td>
+                  <td>$23.00</td>
+                </tr>
+
+                <tr>
+                  <td>
+                    <p><b>TROPICANA</b></p>
+                    <p><i>Ham Mushrooms</i></p>
+                    <p><i>Prawns Pineapple</i></p>
+                  </td>
+                  <td>$13.00</td>
+                  <td>$15.50</td>
+                  <td>$20.00</td>
+                  <td>$23.00</td>
+                </tr>
+
+                <tr>
+                  <td>
+                    <p><b>THE LOT</b></p>
+                    <p><i>Everything</i></p>
+                  </td>
+                  <td>$14.00</td>
+                  <td>$16.50</td>
+                  <td>$21.00</td>
+                  <td>$25.00</td>
+                </tr>
+
+                <tr>
+                  <td>
+                    <p><b>MEAT LOVERS</b></p>
+                    <p><i>Ham Hot Salami Bacon</i></p>
+                    <p><i>Beef BBQ Sauce</i></p>
+                  </td>
+                  <td>$14.00</td>
+                  <td>$16.50</td>
+                  <td>$21.00</td>
+                  <td>$25.00</td>
+                </tr>
+
+                <tr>
+                  <td>
+                    <p><b>BBQ CHICKEN</b></p>
+                    <p><i>Chicken Mushrooms</i></p>
+                    <p><i>BBQ Sauce</i></p>
+                  </td>
+                  <td>$13.00</td>
+                  <td>$15.50</td>
+                  <td>$20.00</td>
+                  <td>$23.00</td>
+                </tr>
+
+                <tr>
+                  <td>
+                    <p><b>GARLIC & CHEESE</b></p>
+                    <p><i>Garlic Cheese</i></p>
+                  </td>
+                  <td>$10.00</td>
+                  <td>$12.50</td>
+                  <td>$15.00</td>
+                  <td>$18.00</td>
+                </tr>
+
+              </tbody>
+            </table>
+          </div>
+          <div id="extraTrad1" class="bg-danger text-white"><h5>extra for traditional toppings</h5></div>
+          <div id="extraTrad2" class="bg-danger text-white">
+            <p>small & medium: $0.50</p>
+            <p>large & family: $1.00</p>
+            <p>Delivery charge: $4.00 extra</p>
+            <p>Minimum delivery charge: $15.00</p>
+          </div><br>
+        </div> <!-- Traditional pizza col ends -->
+
+        <div class="col-12 col-md-6"> <!--Gourmet pizza col -->
+          <div id="gourPiza" class="bg-danger text-white"><h1>gourmet pizzas</h1></div>
+          <div class="table-responsive">
+            <table class="table table-bordered table-hover bg-danger text-white" id="fadeGour">
+              <thead>
+                <tr>
+                  <th scope="col">Items</th>
+                  <th scope="col">Small</th>
+                  <th scope="col">Medium</th>
+                  <th scope="col">Large</th>
+                  <th scope="col">Family</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>
+                    <p><b>FAVORI MEDITERRANEAN</b></p>
+                    <p><i>Bolognaise Dedoni Feta</i></p>
+                    <p><i>Bacon Pizza Base On Top with Parsley</i></p>
+                  </td>
+                  <td>$16.00</td>
+                  <td>$18.00</td>
+                  <td>$23.00</td>
+                  <td>$25.00</td>
+                </tr>
+
+                <tr>
+                  <td>
+                    <p><b>TIROPIZZA</b></p>
+                    <p><i>Dedoni Feta Pizza Base On Top</i></p>
+                  </td>
+                  <td>$14.00</td>
+                  <td>$16.00</td>
+                  <td>$21.00</td>
+                  <td>$23.00</td>
+                </tr>
+
+                <tr>
+                  <td>
+                    <p><b>VEGETARIAN MEDITERRANEAN</b></p>
+                    <p><i>Napoli Sauce Dedoni Feta</i></p>
+                    <p><i>Spanish Onion Mushrooms</i></p>
+                    <p><i>Capsicum Kalamata Olives</i></p>
+                    <p><i>Oregano</i></p>
+                  </td>
+                  <td>$16.00</td>
+                  <td>$18.00</td>
+                  <td>$23.00</td>
+                  <td>$25.00</td>
+                </tr>
+
+                <tr>
+                  <td>
+                    <p><b>KING PRAWNS</b></p>
+                    <p><i>Napoli Sauce Mozzarella Cheese</i></p>
+                    <p><i>Hot Salami King</i></p>
+                    <p><i>Prawns Sun-dried Tomatoes</i></p>
+                    <p><i>Kalamata Olives Garlic</i></p>
+                    <p><i>Oregano</i></p>
+                  </td>
+                  <td>$17.00</td>
+                  <td>$19.00</td>
+                  <td>$24.00</td>
+                  <td>$26.00</td>
+                </tr>
+
+                <tr>
+                  <td>
+                    <p><b>GOURMET VEGETARIAN</b></p>
+                    <p><i>Napoli Sauce Mozzarella Cheese</i></p>
+                    <p><i>Char Grilled Egg Plant</i></p>
+                    <p><i>and Zucchini Red Peeled</i></p>
+                    <p><i>Capsicum Spanish Onion</i></p>
+                    <p><i>Mushrooms Oregano</i></p>
+                  </td>
+                  <td>$16.00</td>
+                  <td>$18.00</td>
+                  <td>$23.00</td>
+                  <td>$25.00</td>
+                </tr>
+
+                <tr>
+                  <td>
+                    <p><b>MARINATED CHICKEN</b></p>
+                    <p><i>Napoli Sauce Mozzarella Cheese</i></p>
+                    <p><i>Char Grilled Zucchini</i></p>
+                    <p><i>Sun-dried Tomatoes Red Peeled</i></p>
+                    <p><i>Capsicum Mushrooms Herbed</i></p>
+                    <p><i>Chicken Oregano</i></p>
+                  </td>
+                  <td>$16.00</td>
+                  <td>$18.00</td>
+                  <td>$23.00</td>
+                  <td>$25.00</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div id="extraGour1" class="bg-danger text-white"><h5>extra for gourmet toppings starting at $1.00 </h5></div>
+          <div id="extraGour2" class="bg-danger text-white">
+            <p>vegan options available</p>
+          </div>
+
+          <div id="icecreamBackground">
+            <h4 id="targetItalian" class="bg-danger text-white">ITALIAN ICECREAM: $2.50</h4>
+            <ul class="inline bg-danger text-white" id="listStyle1">
+              <li>Assorted Everest Ice-cream</li>
+              <li>Desserts Enquire</li>
+              <li>Everest Gelato Chocolate/Lemon</li>
+              <li>Dixie Cups</li>
+            </ul>
+
+            <h4 id="targetBeverages" class="bg-danger text-white">BEVERAGES</h4>
+            <ol class="inline bg-danger text-white" id="listStyle2">
+              <li>1.25 Litre Bottles</li>
+              <li>Cans</li>
+              <li>Water</li>
+              <li>Juice</li>
+              <li>Mineral Water</li>
+              <li>San Pellegrino</li>
+            </ol>
+          </div><br>
+
+        </div> <!-- Gourmet pizza col ends -->
+      </div>
+    </div> <!-- End of container -->
+
+
+    <!-- contact1 starts -->
+    <div class ="contact1">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <h3 class="setBackground bg-danger text-white" id="targetKids">KIDS PIZZAS</h3>
+            <table class="table table-bordered table-hover bg-danger text-white" id="fadeKids">
+              <tbody>
+                <tr>
+                  <td>
+                    <p>MARGHERITA</p>
+                    <p><i>Double Cheese</i></p>
+                  </td>
+                  <td>$6.00</td>
+                </tr>
+
+                <tr>
+                  <td>
+                    <p>HAWAIIAN</p>
+                    <p><i>Ham Pineapple</i></p>
+                  </td>
+                  <td>$6.50</td>
+                </tr>
+
+                <tr>
+                  <td>
+                    <p>POLLO</p>
+                    <p><i>Chicken Mushrooms</i></p>
+                    <p><i>Pineapple</i></p>
+                  </td>
+                  <td>$7.00</td>
+                </tr>
+
+              </tbody>
+            </table>
+
+            <h5 class="setBackgrounds bg-danger text-white m-0">GLUTEN FREE BASE: $5.00</h5>
+            <h5 class="setBackgrounds bg-danger text-white m-0">GARLIC BREAD: $5.00</h5><br>
+          </div>
+
+          <div class="col-md-4">
+            <h3 class="setBackground bg-danger text-white" id="targetPasta">PASTA</h3>
+            <table class="table table-bordered table-hover bg-danger text-white" id="fadePasta">
+              <tbody>
+                <tr>
+                  <td>
+                    <p>RAVIOLI-TORTELLINI-SPAGHETTI</p>
+                    <p><i>Lasagne</i></p>
+                  </td>
+                  <td>$14.00</td>
+                </tr>
+
+                <tr>
+                  <td>
+                    <p>SAUCES</p>
+                    <p><i>Fungi Sauce</i></p>
+                    <p><i>Carbonara Sauce</i></p>
+                    <p><i>Napoli Sauce</i></p>
+                    <p><i>Bolognaise Sauce</i></p>
+                  </td>
+                  <td>$14.00</td>
+                </tr>
+
+                <tr>
+                  <td>
+                    <p><i>Marinara Sauce with King Prawns</i></p>
+                  </td>
+                  <td>$18.00</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div class="col-md-4">
+            <h3 class="setBackground bg-danger text-white" id="targetSalads">SALADS</h3>
+            <table class="table table-bordered table-hover bg-danger text-white" id="fadeSalad">
+              <tbody>
+                <tr>
+                  <td>
+                    <p><i>Greek</i></p>
+                  </td>
+                  <td>$12.00</td>
+                </tr>
+
+                <tr>
+                  <td>
+                    <p><i>French</i></p>
+                  </td>
+                  <td>$10.00</td>
+                </tr>
+
+                <tr>
+                  <td>
+                    <p><i>Chicken</i></p>
+                  </td>
+                  <td>$13.00</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <!-- End of contact1 -->
+
+
+    <!-- Contact button -->
+    <div id="contactUs" class="bg-info">
+      <button type="button" class="btn btn-success btn-lg" id="btnText">contact us today
+        <i class="fas fa-mobile-alt"></i>
+      </button>
+    </div>
+    <!-- Contact button ends -->
+
+
+    <!-- Contact, location and hours section -->
+    <div class ="contact bg-danger text-white">
+      <br>
+      <h1 id="mapHeading">come grab a slice!</h1><br>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8">
+            <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3150.5879610302427!2d144.
+              94736105054253!3d-37.84653094359199!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad667c
+              2c822b3ab%3A0x25efb3fdfc6e15cf!2s153%20Victoria%20Ave%2C%20Albert%20Park%20VIC%203206!5e0!3m2!1sen!2sau!
+              4v1585894475044!5m2!1sen!2sau" frameborder="0" style="border:0;"
+              allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </p>
+          </div>
+          <div class="col-md-4">
+            <h5>Address: 153 Victoria Ave, Albert Park VIC 3206, Melbourne, Australia</h5><br>
+            <h3 class="bg-danger text-center text-white mb-0" id="thdBorder">Trading Hours</h3>
+            <table class="table table-bordered table-hover text-white">
+              <tbody>
+                <tr>
+                  <td>Monday</td>
+                  <td>5am - 10pm</td>
+                </tr>
+                <tr>
+                  <td>Tuesday</td>
+                  <td>5am - 10pm</td>
+                </tr>
+                <tr>
+                  <td>Wednesday</td>
+                  <td>5am - 10pm</td>
+                </tr>
+                <tr>
+                  <td>Thursday</td>
+                  <td>5am - 10pm</td>
+                </tr>
+                <tr>
+                  <td>Friday</td>
+                  <td>5am - 10pm</td>
+                </tr>
+                <tr>
+                  <td>Saturday</td>
+                  <td>5am - 10pm</td>
+                </tr>
+                <tr>
+                  <td>Sunday</td>
+                  <td>5am - 10pm</td>
+                </tr>
+              </tbody>
+            </table>
+
+            <h6>Phone: (03) 9699 3157</h6>
+            <h6>Email: favori@gmail.com</h6>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8">
+            <div class="setIcon">
+              <i class="fab fa-facebook"></i>
+              <i class="fab fa-twitter"></i>
+              <i class="fab fa-foursquare"></i>
+              <i class="fab fa-instagram-square"></i>
+            </div>
+            <p>© 2020 Favori Pizza. <i>Website by Bishal Raktim</i></p>
+          </div>
+          <div class="col-md-4" id="topPage">
+            <div class="icon"><br>
+              <span title="SCROLL TO THE TOP">
+                <button type="button" class="btn btn-primary btn-lg">Home Page
+                  <i class="fas fa-arrow-alt-circle-up"></i>
+                </button>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End of contact, location and hours section -->
+
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous">
+    </script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous">
+    </script>
+
+    <!-- JavaScript -->
+    <script type="text/javascript" src="JS/home-page.js"></script>
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/33c739b4ac.js" crossorigin="anonymous"></script>
+
+  </body>
+</html>

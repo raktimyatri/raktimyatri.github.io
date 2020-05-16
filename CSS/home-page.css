@@ -1,0 +1,348 @@
+* {
+  outline: 0 !important;
+}
+
+iframe {
+  width: 100%;
+  height: 461px;
+}
+
+.slide {
+  width: 100%;
+  height: 560px;
+  left: 0;
+  top: 0;
+  position: absolute;
+}
+
+.setPara {
+  text-align: justify;
+  font-style: italic;
+}
+
+.fontSet {
+  font-weight: bold;
+  color: #AD1851;
+  font-size: 35px;
+  text-align: justify;
+}
+
+.smallPara {
+  font-weight: bold;
+  font-size: 21px;
+  color: #AD1851;
+  text-transform: uppercase;
+  font-style: normal;
+  text-align: justify;
+}
+
+.contact1 {
+  padding-bottom: 12px;
+}
+
+.setBackground {
+  color: #00000;
+  border: 1px solid white;
+  text-align: center;
+}
+
+.table-striped {
+  background-color: #FFE0F7;
+}
+
+.setBackgrounds {
+  border: 1px solid white;
+  text-align: justify;
+}
+
+.contact {
+  padding-bottom: 12px;
+}
+
+.time {
+  font-size: 20px;
+  font-style: oblique;
+  font-family: monospace;
+  font-weight: bolder;
+  color: red;
+}
+
+.icon {
+  margin-left: 50%;
+}
+
+.setIcon {
+  font-size: 40px;
+}
+
+
+#slideshow {
+  width: 100%;
+  height: 560px;
+  position: relative;
+}
+
+#img-src {
+  width: 100%;
+}
+
+#setReser {
+  font-size: 45px;
+  color: #DEDEDE;
+  font-weight: bold;
+  background-color: #000000;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+#center {
+  width: 100%;
+  padding: 5%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: #FFB1A3;
+  font-size: 25px;
+  font-style: italic;
+  text-decoration: inherit;
+  display: none;
+  text-align: justify;
+}
+
+#phone {
+  margin-left: 40%;
+  font-size: 70px;
+}
+
+#online {
+  width: 100%;
+  padding: 5%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: #a9b4db;
+  font-size: 23px;
+  font-style: italic;
+  text-decoration: inherit;
+  display: none;
+  text-align: justify;
+}
+
+#onlineOrder {
+  margin-left: 40%;
+  font-size: 70px;
+}
+
+#tradPiza1 {
+  text-transform: uppercase;
+  border: 1px solid white;
+  text-align: center;
+  color: black;
+}
+
+#tradPiza2 {
+  text-transform: uppercase;
+  font-style: italic;
+  text-align: justify;
+  color: #f58cdc;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+#extraTrad1 {
+  text-transform: uppercase;
+  text-align: justify;
+  border: 2px solid white;
+  margin-bottom: 0;
+  margin-top: 10px;
+  padding-top: 8px;
+  padding-left: 5px;
+}
+
+#extraTrad2 {
+  text-transform: capitalize;
+  line-height: 10px;
+  border: 2px solid white;
+  font-style: italic;
+  text-align: justify;
+  padding-top: 5px;
+  padding-left: 5px;
+  padding-bottom: 0;
+  margin-top: 0;
+}
+
+#gourPiza {
+  text-transform: uppercase;
+  border: 1px solid white;
+  text-align: center;
+}
+
+#extraGour1 {
+  text-transform: uppercase;
+  text-align: justify;
+  border: 2px solid white;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding-top: 5px;
+  padding-left: 5px;
+}
+
+#extraGour2 {
+  text-transform: uppercase;
+  text-align: justify;
+  line-height: 10px;
+  font-style: italic;
+  border: 2px solid white;
+  padding-top: 8px;
+  padding-left: 5px;
+  padding-bottom: 0;
+  margin-top: 0;
+}
+
+
+#listStyle1 {
+  list-style: circle;
+  border: 2px solid white;
+  font-size: 19px;
+  margin: 0;
+}
+
+#listStyle2 {
+  list-style: circle;
+  border: 2px solid white;
+  font-size: 19px;
+  margin: 0;
+}
+
+#targetItalian {
+  text-align: center;
+  margin: 25px 0 0;
+  border: 2px solid white;
+}
+
+#targetBeverages {
+  text-align: center;
+  margin: 25px 0 0;
+  border: 2px solid white;
+}
+
+#contactUs {
+  text-align: center;
+  font-size: 40px;
+  text-decoration: inherit;
+}
+
+#btnText {
+  text-transform: uppercase;
+  padding: 18px 10px;
+}
+
+#mapHeading {
+  text-align: center;
+  text-transform: uppercase;
+  color: #00000;
+}
+
+
+/*Custom CSS for Table*/
+#tableBackground1 {
+  margin: 0;
+  padding: 0;
+}
+
+#tableBackground1 tbody p {
+  padding: 0;
+  margin: 0;
+}
+
+#fadeGour tbody p {
+  padding: 0;
+  margin: 0;
+}
+
+#fadeKids {
+  margin: 0;
+  padding: 0;
+}
+
+#fadeKids tbody p {
+  padding: 0;
+  margin: 0;
+}
+
+#targetKids {
+  margin: 0;
+}
+
+#fadePasta tbody p {
+  margin: 0;
+  padding: 0;
+}
+
+#targetPasta {
+  margin: 0;
+}
+
+#fadeSalad tbody p {
+  margin: 0;
+  padding: 0;
+}
+
+#targetSalads {
+  margin: 0;
+}
+
+#thdBorder {
+  border: 1px solid white;
+}
+
+
+@media only screen and (min-width: 750px) {
+  #center {
+    width: 51%;
+    padding: 1%;
+  }
+
+  #phone {
+    margin-left: 43%;
+  }
+
+  #online {
+    width: 51%;
+    padding: 1%;
+  }
+
+  #onlineOrder {
+    margin-left: 43%;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  #extraTrad1 {
+    text-transform: uppercase;
+    color: blue;
+    text-align: justify;
+    width: 84%;
+  }
+}
+
+@media only screen and (max-width: 600px){
+  .slide {
+    height: 560px;
+    margin: 0;
+  }
+}
+
+@media only screen and (max-width: 4000px){
+  #row {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+
+  #pizzaImage {
+    padding: 0;
+    margin: 0;
+  }
+
+  #img-src {
+    height: 100%;
+  }
+
+}
