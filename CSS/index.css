@@ -52,19 +52,19 @@ h4 {
 	background-image: url(https://res.cloudinary.com/bishal/image/upload/v1586055961/Blog-Site/photo-1563865436874-9aef32095fad_shndng.jpg)
 }
 .slideshow li:nth-child(2) {
-	background-image: url(https://res.cloudinary.com/bishal/image/upload/v1586056075/Blog-Site/photo-1551978129-b73f45d132eb_tc5aot.jpg);
+	background-image: url(https://res.cloudinary.com/bishal/image/upload/v1589717265/Blog-Site/IMG_0942_mfszz1.jpg);
   	animation-delay: 10s;
 }
 .slideshow li:nth-child(3) {
-  	background-image: url(https://res.cloudinary.com/bishal/image/upload/v1586056207/Blog-Site/photo-1571407906723-2d8feeb7b155_abwhfl.jpg);
+  	background-image: url(https://res.cloudinary.com/bishal/image/upload/v1589717265/Blog-Site/IMG_0946_w7jpzm.jpg);
   	animation-delay: 20s;
 }
 .slideshow li:nth-child(4) {
-  	background-image: url(https://res.cloudinary.com/bishal/image/upload/v1586056350/Blog-Site/photo-1548716188-9b0867f0d1c0_vbn9f5.jpg);
+  	background-image: url(https://res.cloudinary.com/bishal/image/upload/v1589717265/Blog-Site/IMG_0945_bpr0ta.jpg);
   	animation-delay: 30s;
 }
 .slideshow li:nth-child(5) {
-  	background-image: url(https://res.cloudinary.com/bishal/image/upload/v1586056643/Blog-Site/photo-1560433679-ac26da4b954d_b94eey.jpg);
+  	background-image: url(https://res.cloudinary.com/bishal/image/upload/v1589717265/Blog-Site/IMG_0943_jlyhf8.jpg);
   	animation-delay: 40s;
 }
 
