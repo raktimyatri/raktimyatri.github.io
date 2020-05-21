@@ -245,12 +245,12 @@ function resAndOnline() {
 function placeOrderOnline() {
   if($(window).width() < 1000) {
     $('html, body').animate({
-      scrollTop: $('#reservation').offset().top + 770
+      scrollTop: $('#reservation').offset().top + 557
     }, 2000);
   }
   else {
     $('html, body').animate({
-      scrollTop: $('#reservation').offset().top + 528
+      scrollTop: $('#reservation').offset().top + 328
     }, 2000);
   }
 }
@@ -264,9 +264,7 @@ function book(){
 
 
 var slideIndex = 0;
-var slideIndex1 = 0;
 showSlides();
-showSlides1();
 
 function showSlides() {
   var i;
@@ -280,18 +278,4 @@ function showSlides() {
   }
   slides[slideIndex-1].style.display = "block";
   setTimeout(showSlides, 2500); // Change image every 2.5 seconds
-}
-
-function showSlides1() {
-  var i;
-  var slides = $("#slideshow1 img");
-  for (i = 0; i < slides.length; i++){
-    slides[i].style.display = "none";
-  }
-  slideIndex1++;
-  if(slideIndex1 > slides.length){
-    slideIndex1 = 1;
-  }
-  slides[slideIndex1-1].style.display = "block";
-  setTimeout(showSlides1, 2500); // Change image every 2.5 seconds
 }

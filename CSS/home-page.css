@@ -8,26 +8,15 @@ iframe {
 }
 
 .slide {
-  width: 100%;
-  height: 480px;
-  left: 0;
-  top: 0;
-  position: absolute;
-}
-
-.slide1 {
-  width: 100%;
-  height: 480px;
-  left: 0;
-  top: 0;
-  margin: 0;
+  width: 50%;
+  height: 450px;
   position: absolute;
 }
 
 .slideBg {
-  margin: 0;
-  padding: 0;
-  height: 480px;
+  width: 50%;
+  height: 450px;
+  float: left;
 }
 
 .setPara {
@@ -333,18 +322,13 @@ iframe {
 @media only screen and (max-width: 575px){
   .slide {
     height: 350px;
-    margin: 0;
-  }
-  .slide1 {
-    height: 350px;
-    margin: 0;
+    width: 100%;
   }
   .slideBg {
     height: 350px;
-    margin: 0;
+    width: 100%;
   }
-
-  #slideshow1 {
+  #nextImage {
     display: none;
   }
 }
