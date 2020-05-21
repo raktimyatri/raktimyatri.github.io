@@ -250,7 +250,7 @@ function placeOrderOnline() {
   }
   else {
     $('html, body').animate({
-      scrollTop: $('#reservation').offset().top + 610
+      scrollTop: $('#reservation').offset().top + 528
     }, 2000);
   }
 }
